@@ -1,10 +1,11 @@
 import './App.css';
+import Header from './components/Header/Header.js';
 import Home from './Home'
 
 function App() {
   return (
     <div className="App">
-      <h1>Airbnb Clone</h1>
+      <Header/>
       <Home/>
     </div>
   
@@ -15,6 +16,9 @@ function App() {
     //Cards
 
     //Footer
+
+    //Search panel
+  
   );
 }
 
